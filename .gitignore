@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Runtime data
+*.pid
+*.log
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Windows shortcuts
+*.lnk
+
+# Backup files
+*.bak
+*.backup
+
+# Claude settings (contains local paths)
+.claude/
