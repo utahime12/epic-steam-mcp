@@ -1,0 +1,38 @@
+{
+  "name": "epic-steam-mcp",
+  "version": "2.0.0",
+  "description": "Model Context Protocol server for Epic Games Launcher and Steam integration",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "epic-games",
+    "steam",
+    "game-launcher",
+    "automation",
+    "claude",
+    "ai-assistant"
+  ],
+  "author": "utahime12",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utahime12/epic-steam-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utahime12/epic-steam-mcp/issues"
+  },
+  "homepage": "https://github.com/utahime12/epic-steam-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  }
+}
